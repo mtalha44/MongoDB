@@ -46,6 +46,16 @@ app.get('/edit/:userId' , async (req , res) => {
   res.render('edit' , { prevUser });
 })
 
+//Below is the code for updating the user
+//ther is also another way to update the user like if 
+//i use the value attribute in input fields then it will
+//show the previos values on browser and then if i change
+//in it and click update it will update the user and in this
+//file i use app.post method and in it i write some functions 
+//after alternative way it will also change like only we have to do is 
+// { username , email , imgurl } = req.body ;
+//userModel.findAndUpdateOne({ _id : req.params.prevUserId } , { $set : { username , email , imgurl } } , { new : true }  )
+
 app.post('/update/:prevUserId' , async (req , res) => {
   try {
   const { username , email , imgurl } =  req.body;
