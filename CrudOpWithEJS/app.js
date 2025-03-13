@@ -39,6 +39,36 @@ app.get('/delete/:userId' , async (req , res) => {
     res.redirect('/read');
 })
 
+app.get('/edit/:userId' , async (req , res) => {
+  // let prevUser = await req.params.userId; 
+  let prevUser = await userModel.findOne({ _id : req.params.userId });
+  // console.log(prevUser)
+  res.render('edit' , { prevUser });
+})
+
+app.post('/update/:prevUserId' , async (req , res) => {
+  try {
+  const { username , email , imgurl } =  req.body;
+  const prevUser = await userModel.findOne({ _id : req.params.prevUserId });
+  const updUsername = username || prevUser.username;
+  const updEmail = email || prevUser.email; 
+  const updImgUrl = imgurl || prevUser.imgurl ;
+  
+  await userModel.updateOne( { _id : req.params.prevUserId } , { $set : {
+    username : updUsername,
+    email : updEmail,
+    imgurl : updImgUrl,
+   }} )
+   
+  res.redirect('/read') ;
+  
+}catch( err ) {
+   console.log(err.message)
+   res.status(500).send('Error updating user');
+}
+  
+})
+
 app.listen(3001, () => {
   console.log('Server is running on port 3001');
 });
