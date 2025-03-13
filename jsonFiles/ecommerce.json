@@ -1,0 +1,9 @@
+[
+    { "name": "Laptop", "brand": "Dell", "price": 800, "stock": 50, "category": "Electronics" },
+    { "name": "Smartphone", "brand": "Samsung", "price": 500, "stock": 200, "category": "Electronics" },
+    { "name": "Headphones", "brand": "Sony", "price": 100, "stock": 150, "category": "Accessories" },
+    { "name": "Keyboard", "brand": "Logitech", "price": 50, "stock": 100, "category": "Accessories" },
+    { "name": "Monitor", "brand": "HP", "price": 300, "stock": 80, "category": "Electronics" },
+    { "name": "Tablet", "brand": "Apple", "price": 600, "stock": 30, "category": "Electronics" }
+]
+ 

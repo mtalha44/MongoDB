@@ -1,0 +1,274 @@
+[
+      {
+        "id": 1,
+        "brand": "Toyota",
+        "model": "Corolla",
+        "year": 2022,
+        "color": "White",
+        "price": 25000
+      },
+      {
+        "id": 2,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2023,
+        "color": "Black",
+        "price": 27000
+      },
+      {
+        "id": 3,
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "color": "Red",
+        "price": 55000
+      },
+      {
+        "id": 4,
+        "brand": "Chevrolet",
+        "model": "Camaro",
+        "year": 2022,
+        "color": "Yellow",
+        "price": 50000
+      },
+      {
+        "id": 5,
+        "brand": "BMW",
+        "model": "X5",
+        "year": 2023,
+        "color": "Blue",
+        "price": 60000
+      },
+      {
+        "id": 6,
+        "brand": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2022,
+        "color": "Silver",
+        "price": 45000
+      },
+      {
+        "id": 7,
+        "brand": "Audi",
+        "model": "A4",
+        "year": 2023,
+        "color": "Gray",
+        "price": 48000
+      },
+      {
+        "id": 8,
+        "brand": "Tesla",
+        "model": "Model 3",
+        "year": 2023,
+        "color": "White",
+        "price": 40000
+      },
+      {
+        "id": 9,
+        "brand": "Nissan",
+        "model": "Altima",
+        "year": 2022,
+        "color": "Black",
+        "price": 29000
+      },
+      {
+        "id": 10,
+        "brand": "Hyundai",
+        "model": "Sonata",
+        "year": 2023,
+        "color": "Blue",
+        "price": 32000
+      },
+      {
+        "id": 11,
+        "brand": "Kia",
+        "model": "Sportage",
+        "year": 2023,
+        "color": "Green",
+        "price": 31000
+      },
+      {
+        "id": 12,
+        "brand": "Lexus",
+        "model": "RX 350",
+        "year": 2022,
+        "color": "Black",
+        "price": 55000
+      },
+      {
+        "id": 13,
+        "brand": "Jeep",
+        "model": "Wrangler",
+        "year": 2023,
+        "color": "Orange",
+        "price": 47000
+      },
+      {
+        "id": 14,
+        "brand": "Mazda",
+        "model": "CX-5",
+        "year": 2022,
+        "color": "Red",
+        "price": 33000
+      },
+      {
+        "id": 15,
+        "brand": "Subaru",
+        "model": "Outback",
+        "year": 2023,
+        "color": "Silver",
+        "price": 35000
+      },
+      {
+        "id": 16,
+        "brand": "Volkswagen",
+        "model": "Passat",
+        "year": 2022,
+        "color": "White",
+        "price": 31000
+      },
+      {
+        "id": 17,
+        "brand": "Volvo",
+        "model": "XC90",
+        "year": 2023,
+        "color": "Blue",
+        "price": 65000
+      },
+      {
+        "id": 18,
+        "brand": "Porsche",
+        "model": "911",
+        "year": 2023,
+        "color": "Yellow",
+        "price": 120000
+      },
+      {
+        "id": 19,
+        "brand": "Jaguar",
+        "model": "F-Type",
+        "year": 2022,
+        "color": "Green",
+        "price": 90000
+      },
+      {
+        "id": 20,
+        "brand": "Cadillac",
+        "model": "Escalade",
+        "year": 2023,
+        "color": "Black",
+        "price": 75000
+      },
+      {
+        "id": 21,
+        "brand": "Ferrari",
+        "model": "488",
+        "year": 2023,
+        "color": "Red",
+        "price": 250000
+      },
+      {
+        "id": 22,
+        "brand": "Lamborghini",
+        "model": "Huracan",
+        "year": 2023,
+        "color": "Orange",
+        "price": 300000
+      },
+      {
+        "id": 23,
+        "brand": "McLaren",
+        "model": "720S",
+        "year": 2023,
+        "color": "Blue",
+        "price": 280000
+      },
+      {
+        "id": 24,
+        "brand": "Rolls-Royce",
+        "model": "Phantom",
+        "year": 2023,
+        "color": "White",
+        "price": 450000
+      },
+      {
+        "id": 25,
+        "brand": "Bentley",
+        "model": "Continental GT",
+        "year": 2023,
+        "color": "Silver",
+        "price": 350000
+      },
+      {
+        "id": 26,
+        "brand": "Bugatti",
+        "model": "Chiron",
+        "year": 2023,
+        "color": "Black",
+        "price": 3000000
+      },
+      {
+        "id": 27,
+        "brand": "Tesla",
+        "model": "Model S",
+        "year": 2023,
+        "color": "Red",
+        "price": 90000
+      },
+      {
+        "id": 28,
+        "brand": "Ford",
+        "model": "F-150",
+        "year": 2023,
+        "color": "Blue",
+        "price": 40000
+      },
+      {
+        "id": 29,
+        "brand": "Chevrolet",
+        "model": "Silverado",
+        "year": 2023,
+        "color": "Black",
+        "price": 42000
+      },
+      {
+        "id": 30,
+        "brand": "Toyota",
+        "model": "Highlander",
+        "year": 2023,
+        "color": "White",
+        "price": 45000
+      },
+      {
+        "id": 31,
+        "brand": "Hyundai",
+        "model": "Elantra",
+        "year": 2023,
+        "color": "Gray",
+        "price": 28000
+      },
+      {
+        "id": 32,
+        "brand": "Mazda",
+        "model": "Mazda3",
+        "year": 2023,
+        "color": "Blue",
+        "price": 27000
+      },
+      {
+        "id": 33,
+        "brand": "Nissan",
+        "model": "Rogue",
+        "year": 2023,
+        "color": "Silver",
+        "price": 32000
+      },
+      {
+        "id": 34,
+        "brand": "Honda",
+        "model": "Accord",
+        "year": 2023,
+        "color": "Black",
+        "price": 31000
+      }
+]  

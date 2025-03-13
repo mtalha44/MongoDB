@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <!-- Use the recommended Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="w-full h-full p-16 bg-zinc-900">
+    <h1 class="text-center text-white text-2xl">Login Form</h1>
+    <form action="/create" method="post" class="w-96 m-auto p-10 text-white flex gap-5 flex-wrap">
+      <input type="text" name="username" placeholder="Enter Username" class="w-full p-2 bg-transparent  border rounded" />
+      <input type="text" name="email" placeholder="Enter email" class="w-full p-2 bg-transparent border rounded" />
+      <input type="text" name="imgurl" placeholder="img url" class="w-full p-2 bg-transparent border rounded" />
+      <button class="p-2 border rounded">Create User</button>
+    </form>
+  </div>
+</body>
+</html>
